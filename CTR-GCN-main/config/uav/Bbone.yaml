@@ -1,4 +1,4 @@
-work_dir: ./work_dir/ctrgcn_Bbone_test
+work_dir: ./work_dir/ctrgcn_Bbone
 
 # feeder
 feeder: feeders.feeder_uav.Feeder
