@@ -1,4 +1,4 @@
-work_dir: ./work_dir/ctrgcn_Bjoint_test
+work_dir: ./work_dir/ctrgcn_Bjoint
 
 # feeder
 feeder: feeders.feeder_uav.Feeder
@@ -26,7 +26,7 @@ test_feeder_args:
   debug: False
 
 # model
-model: model.ctrgcn_test.Model
+model: model.ctrgcn.Model
 model_args:
   num_class: 155
   num_point: 17
@@ -44,7 +44,7 @@ warm_up_epoch: 5
 
 # training
 device: [0]
-batch_size: 35
-test_batch_size: 35
+batch_size: 64
+test_batch_size: 64
 num_epoch: 65
 nesterov: True
